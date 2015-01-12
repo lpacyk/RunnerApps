@@ -13,7 +13,10 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-//delete this shit
+
+    /**
+     * Shane says, "Hey!"
+     */
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
