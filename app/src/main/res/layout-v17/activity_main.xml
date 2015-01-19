@@ -62,6 +62,7 @@
         android:textSize="35sp"
         android:layout_below="@+id/speed_end"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
 
 </RelativeLayout>
