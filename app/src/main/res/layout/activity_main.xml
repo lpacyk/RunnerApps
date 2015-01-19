@@ -46,7 +46,11 @@
         android:layout_marginBottom="49dp"
         android:textSize="50sp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#0000FF"
+        android:background="#00FF00"
+        android:paddingRight="25sp"
+        android:paddingLeft="25sp"/>
 
     <TextView
         android:layout_width="wrap_content"
