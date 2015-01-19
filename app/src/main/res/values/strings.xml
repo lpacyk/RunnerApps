@@ -14,5 +14,6 @@
     <string name="return_distance">Distance: 800 km</string>
     <string name="return_time">Time: 60:30</string>
     <string name="return_button_bottom">Return</string>
+    <string name="title_activity_return_page">Return Page</string>
 
 </resources>
