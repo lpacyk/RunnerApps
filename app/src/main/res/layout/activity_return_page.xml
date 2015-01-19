@@ -79,8 +79,8 @@
         android:textSize="50sp"
         android:textColor="#0000FF"
         android:background="#00FF00"
-        android:paddingEnd="50sp"
+        android:paddingRight="25sp"
         android:nestedScrollingEnabled="false"
-        android:paddingStart="50sp" />
+        android:paddingLeft="25sp" />
 
 </RelativeLayout>
