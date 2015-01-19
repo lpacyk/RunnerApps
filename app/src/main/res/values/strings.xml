@@ -8,5 +8,11 @@
     <string name="current_song_end">Kanye West</string>
     <string name="end_button_bottom">END</string>
     <string name="action_settings">Settings</string>
+    <string name="return_run_stat">End of Run Stats</string>
+    <string name="return_top_speed">Top Speed: 80 km/h</string>
+    <string name="return_avg_speed">Avg Speed: 15 km/h</string>
+    <string name="return_distance">Distance: 800 km</string>
+    <string name="return_time">Time: 60:30</string>
+    <string name="return_button_bottom">Return</string>
 
 </resources>
