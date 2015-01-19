@@ -6,6 +6,7 @@
     <string name="pace_end">Pace: Medium</string>
     <string name="speed_end">Speed: 10 km/h</string>
     <string name="current_song_end">Kanye West</string>
+    <string name="end_button_bottom">END</string>
     <string name="action_settings">Settings</string>
 
 </resources>
