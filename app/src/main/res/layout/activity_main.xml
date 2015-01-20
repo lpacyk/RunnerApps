@@ -3,17 +3,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:id="@+id/main"
-    android:background="#FF0000">
+    android:background="#FFFFFF">
 
     <TextView android:text="@string/time_end" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/time_end"
         android:textSize="35sp"
-        android:textColor="#FF00FF"
-        android:layout_marginTop="75dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textColor="#FFFFFF"
+        android:background="#9900FF"
+        android:layout_below="@+id/pace_end"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="66dp"
+        android:paddingLeft="65dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,11 +22,12 @@
         android:text="@string/pace_end"
         android:id="@+id/pace_end"
         android:textSize="35sp"
-
-        android:textColor="#FF00FF"
-        android:layout_below="@+id/time_end"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textColor="#FFFFFF"
+        android:background="#9900FF"
+        android:layout_below="@+id/speed_end"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="35dp"
+        android:paddingLeft="36dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,34 +35,39 @@
         android:text="@string/speed_end"
         android:id="@+id/speed_end"
         android:textSize="35sp"
-        android:textColor="#FF00FF"
-        android:layout_below="@+id/pace_end"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textColor="#FFFFFF"
+        android:background="#9900FF"
+        android:layout_below="@+id/current_song_end"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="25sp"
+        android:paddingLeft="25sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/end_button_bottom"
         android:id="@+id/end_button_bottom"
-        android:layout_marginBottom="49dp"
+        android:layout_marginBottom="62dp"
         android:textSize="50sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#0000FF"
-        android:background="#00FF00"
+        android:textColor="#FFFFFF"
+        android:background="#9900FF"
         android:paddingRight="25sp"
-        android:paddingLeft="25sp"/>
+        android:paddingLeft="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/current_song_end"
         android:id="@+id/current_song_end"
-        android:textColor="#FF00FF"
+        android:textColor="#FFFFFF"
         android:textSize="35sp"
-        android:layout_below="@+id/speed_end"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="104dp"
+        android:background="#9900FF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="55dp"
+        android:paddingLeft="55dp" />
 
 </RelativeLayout>
