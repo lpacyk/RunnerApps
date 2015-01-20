@@ -1,9 +1,12 @@
 package com.example.lp.runnerapps;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import com.example.lp.runnerapps.MainActivity;
 
 
 public class ReturnPage extends ActionBarActivity {
@@ -22,7 +25,10 @@ public class ReturnPage extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_return_page, menu);
         return true;
     }
-
+    public void goMainScreen(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
