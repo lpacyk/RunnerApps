@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="startbtn">START</string>
     <string name="app_name">RunnerApps</string>
     <string name="time_end">Time: 1:15</string>
     <string name="pace_end">Pace: Medium</string>
@@ -15,5 +15,7 @@
     <string name="return_time">Time: 60:30</string>
     <string name="return_button_bottom">Return</string>
     <string name="title_activity_return_page">Return Page</string>
+    <string name="title_activity_start_run">StartRun</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lp.runnerapps.StartRun"
+    android:id="@+id/start"
+    android:background="#ffa6f3ff">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="269dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/run"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/imageView2" />
+
+        <ImageView
+            android:layout_width="451dp"
+            android:layout_height="271dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/bike"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startbtn"
+        android:id="@+id/startbtn"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffff2d00"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
