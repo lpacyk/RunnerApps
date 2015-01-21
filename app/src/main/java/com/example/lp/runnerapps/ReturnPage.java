@@ -13,8 +13,6 @@ public class ReturnPage extends ActionBarActivity {
         setContentView(R.layout.activity_return_page);
     }
 
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
