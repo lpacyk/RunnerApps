@@ -83,7 +83,6 @@
         android:paddingLeft="25sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="65dp"
-        android:singleLine="false" />
+        android:layout_marginBottom="65dp" />
 
 </RelativeLayout>

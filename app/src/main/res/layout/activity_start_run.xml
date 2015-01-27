@@ -16,7 +16,7 @@
         android:layout_marginBottom="77dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#ffff2d00"
+        android:background="#FF0000"
         android:textColor="#ffffffff" />
 
 </RelativeLayout>
