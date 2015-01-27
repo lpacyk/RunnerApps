@@ -7,7 +7,9 @@
     <string name="speed_end">Speed: 10 km/h</string>
     <string name="current_song_end">Kanye West</string>
     <string name="end_button_bottom">END</string>
-    <string name="action_settings">Settings</string>
+    <string name="person">Run</string>
+    <string name="headphones">Music</string>
+    <string name="statistics">Statistics</string>
     <string name="return_run_stat">End of Run Stats</string>
     <string name="return_top_speed">Top Speed: 80 km/h</string>
     <string name="return_avg_speed">Avg Speed: 15 km/h</string>
@@ -17,5 +19,4 @@
     <string name="title_activity_return_page">Return Page</string>
     <string name="title_activity_start_run">StartRun</string>
     <string name="hello_world">Hello world!</string>
-
 </resources>

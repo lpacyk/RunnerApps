@@ -2,6 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.lp.runnerapps.StartRun">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/person" android:title="@string/person"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_person"/>
+    <item android:id="@+id/headphones" android:title="@string/headphones"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_headphones"/>
+    <item android:id="@+id/statistics" android:title="@string/statistics"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_picture"/>
 </menu>
