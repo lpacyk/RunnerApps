@@ -1,13 +1,14 @@
 package com.example.lp.runnerapps;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
-/*
 import android.view.MenuItem;
-*/
 
 public class MusicPage extends ActionBarActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,20 +23,26 @@ public class MusicPage extends ActionBarActivity {
         return true;
     }
 
-/*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        final Context context = this;
+        Intent intent;
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.person:
+                intent = new Intent(context, StartRun.class);
+                startActivity(intent);
+                return true;
+            case R.id.headphones:
+                intent = new Intent(context, MusicPage.class);
+                startActivity(intent);
+                return true;
+            case R.id.statistics:
+                intent = new Intent(context, StatisticsPage.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-
-        return super.onOptionsItemSelected(item);
     }
-*/
 }

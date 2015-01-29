@@ -8,6 +8,7 @@ import android.view.Menu;
 /*
 import android.view.MenuItem;
 */
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -46,15 +47,27 @@ public class StartRun extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_start_run, menu);
         return true;
     }
-/*
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        return super.onOptionsItemSelected(item);
+        final Context context = this;
+        Intent intent;
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.person:
+                intent = new Intent(context, StartRun.class);
+                startActivity(intent);
+                return true;
+            case R.id.headphones:
+                intent = new Intent(context, MusicPage.class);
+                startActivity(intent);
+                return true;
+            case R.id.statistics:
+                intent = new Intent(context, StatisticsPage.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
-*/
 }

@@ -20,4 +20,9 @@
     <string name="title_activity_start_run">StartRun</string>
     <string name="title_activity_music_page">MusicPage</string>
     <string name="title_activity_statistics_page">StatisticsPage</string>
+    <string name="music_title">Welcome to your Playlist Selection</string>
+    <string name="music_text">Hello D\'arcy \n We spent a while agreeing on a color scheme and general layout and design this week. We also played around making a menu and pages for practice.</string>
+    <string name="music_linktext"> Check out our wireframe at</string>
+    <string name="music_link">http://imgur.com/a/0mGMj</string>
+    <string name="stats_title">Welcome to the Stats page. \n\nGraphs planned to be implemented</string>
 </resources>
